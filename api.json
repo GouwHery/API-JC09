@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hery",
+      "password": "123456",
+      "transaction": [
+        {
+          "title": "CHILD'S PLAY",
+          "qty": 3,
+          "total": 105000
+        }
+      ],
+      "userdata": [],
+      "movielist": []
+    },
+    {
+      "username": "Gouw Hery",
+      "password": "123",
+      "id": 2,
+      "transaction": [
+        {
+          "title": "ANNABELLE COMES HOME",
+          "qty": 2,
+          "total": 70000
+        },
+        {
+          "title": "ANNABELLE COMES HOME",
+          "qty": 2,
+          "total": 70000
+        }
+      ],
+      "userdata": [],
+      "movielist": []
+    },
+    {
+      "role": "admin",
+      "username": "test",
+      "password": "321",
+      "transaction": [
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "CHILD'S PLAY",
+            "seat": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "totalprice": 105000
+          }
+        ]
+      ],
+      "saldo": 895000,
+      "cart": [],
+      "id": 3
+    },
+    {
+      "role": "user",
+      "username": "Hery",
+      "password": "123",
+      "transaction": [],
+      "saldo": 1000000,
+      "cart": [
+        {
+          "date": "12/7/2019",
+          "movtitle": "Crayon Shin-chan",
+          "seat": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "J15",
+            "J16",
+            "J17",
+            "J18"
+          ],
+          "totalprice": 280000
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "seats": 100,
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "id": 1,
+      "title": "ANNABELLE COMES HOME",
+      "genre": "Horror",
+      "sutradara": "Gary Dauberman",
+      "sinopsis": "Pasangan suami istri Ed Warren (Patrick Wilson) dan Lorraine Warren (Vera Farmiga) sepakat untuk meletakkan boneka Annabelle di ruang khusus mereka. Dibalik lemari kaca suci dan mendapat berkat dari seorang pendeta.",
+      "playingAt": [
+        9,
+        14,
+        21
+      ],
+      "duration": 106,
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156074568118284_452x647.jpg"
+    },
+    {
+      "seats": 100,
+      "booked": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "J15",
+        "J16",
+        "J17",
+        "J18"
+      ],
+      "title": "Crayon Shin-chan",
+      "genre": "Animation",
+      "sinopsis": "Hiroshi dan Misae belum pernah melakukan perjalanan bulan madu keluar negeri. Pada suatu hari, Misae menemukan paket liburan keluarga dan murah ke Australia dan keluarga Nohara memutuskan untuk menjadikannya liburan bulan madu pertama mereka.",
+      "playingAt": [
+        14,
+        20
+      ],
+      "duration": "60",
+      "sutradara": "Masakazu Hashimoto",
+      "image": "https://id.bmscdn.com/events/Large/ET00006888.jpg",
+      "id": 2
+    },
+    {
+      "seats": 100,
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "id": 4,
+      "title": "CHILD'S PLAY",
+      "genre": "Horror",
+      "sutradara": "Seth Grahame-smith, David Katzenberg",
+      "sinopsis": "Karen Barclay (Aubrey Plaza) adalah orang tua tunggal. Bersama anaknya Andy (Gabriel Bateman) ia pindah ke kota baru untuk memulai awal yang baru.",
+      "playingAt": [
+        10,
+        18,
+        23
+      ],
+      "duration": 89,
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156031628947316_300x430.jpg"
+    },
+    {
+      "seats": 80,
+      "booked": [],
+      "genre": "Komedi",
+      "title": "ANAK MUDA PALSU",
+      "duration": "102",
+      "sinopsis": "Empat orang mahasiswa semester akhir di Universitas Hasanuddin galau memikirkan kuliah mereka yang tak kunjung selesai. Mereka adalah Tumming, Abu, Illank (Reo Ramadhan) dan Darwis (Hisyam Hamsir). Meski berbeda-beda Fakultas tapi tinggal di tempat kos yang sama. Bersahabat sejak mahasiswa baru dan berjanji untuk wisuda bersama-sama.",
+      "playingAt": [
+        "20",
+        "22"
+      ],
+      "sutradara": "Amril Nuryan, Andi Ashari Arraniri",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155876644445137_300x430.jpg",
+      "id": 5
+    },
+    {
+      "seats": 80,
+      "booked": [],
+      "genre": "Komedi",
+      "title": "iqro - My Universe",
+      "duration": "104",
+      "sinopsis": "IQRO - MY UNIVERSE merupakan film drama yang disutradarai oleh Iqbal Alfajri. Aqilla bermimpi untuk menjadi seorang Astronot dan berusaha memenangkan lomba membuat Vlog (Video Blog) tentang tokoh Antariksa dengan hadiah diundang ke Pusat Penelitian Angkasa Luar di Inggris. Kekecewaan karena Opanya yang seorang Astronom harus tugas ke Inggris dan tidak dapat membantunya membuat Vlog akhirnya mempertemukan Aqilla dengan seorang Astronot wanita Indonesia, seorang ahli Botani yang sedang melakukan penelitian tanaman untuk hidup di luar angkasa. Apakah Aqilla berhasil memenangkan lomba tersebut dan menggapai mimpinya?",
+      "playingAt": [
+        9,
+        17,
+        20
+      ],
+      "sutradara": "Iqbal Alfajri",
+      "image": "https://id.bmscdn.com/events/Large/ET00006856.jpg",
+      "id": 7
+    },
+    {
+      "seats": 100,
+      "booked": [],
+      "title": "Ikut Aku Ke Neraka",
+      "genre": "Horror",
+      "sinopsis": "IKUT AKU KE NERAKA merupakan film horor yang disutradarai oleh Azhar Kinoi Lubis. Hidup begitu sempurna bagi LITA (27thn), menikah dengan RAMA (30thn) Lelaki yang karirnya bagus sebagai management operasional di sebuah pabrik. Kehidupan mereka nyaris sempurna, ketika Lita akan melahirkan bayi pertama mereka. Saat hamil tua, Rama selalu ingin melihat Lita terlihat sempurna mendapat rekomendasi dari dokter ahli bedah plastik ternama, untuk bisa menghilangkan tanda lahir Lita di punggung nya, agar Lita lebih percaya diri. Proses operasi pun berjalan lancar, stretch mark di punggung Lita hilang. \n\nKebahagiaan mereka tidak berlangsung lama karena Lita kerap diteror oleh mahluk halus berwujud wanita menyeramkan. Rama membawa Pak Adam untuk membersihkan rumah mereka dari gangguan hantu tersebut, Pak adam menjelaskan teror ini bukan dari rumah melainkan dari dalam diri Lita sendiri. Pak Adam hanya bisa memberikan petunjuk bahwa jawaban dari teror hantu tersebut ada di masa lalu Lita, yang harus dia telusuri kembali dengan meminta penjelasan dari SARI (50thn), ibu nya yang sudah dia tinggalkan. Saat ini Sari dirawat di rumah sakit jiwa, Sari mengalami gangguan jiwa setelah Lita meninggalkan nya. Lita harus mendapat petunjuk dari Sari yang sudah hilang akal sehat nya, di satu sisi teror semakin bertambah dan merenggut nyawa orang sekitar Rama dan Lita. Mereka harus menyelamatkan nyawa mereka dan juga sang bayi.",
+      "playingAt": [
+        16,
+        20,
+        22
+      ],
+      "duration": "86",
+      "sutradara": "Azhar Kinoi Lubis",
+      "image": "https://id.bmscdn.com/events/Large/ET00006853.jpg",
+      "id": 8
+    },
+    {
+      "seats": 100,
+      "booked": [],
+      "title": "Nakee 2",
+      "genre": "Horror",
+      "sinopsis": "NAKEE 2 merupakan film horor Thailand yang disutradarai oleh Pongpat Wachirabunjong. Seorang detektif dikirim untuk menyelidiki peristiwa yang tidak biasa di sebuah desa di timur laut Thailand yang diyakini terdapat legenda ular raksasa bernama Nakee.",
+      "playingAt": [
+        14,
+        20
+      ],
+      "duration": "83",
+      "sutradara": "Pongpat Wachirabunjong",
+      "image": "https://id.bmscdn.com/events/Large/ET00006885.jpg",
+      "id": 9
+    },
+    {
+      "seats": 80,
+      "booked": [],
+      "id": 10,
+      "title": "TOY STORY 4",
+      "genre": "Animation",
+      "sutradara": "Jonas Rivera, Mark Nielsen ",
+      "sinopsis": "Woody, Buzz Lightyear, dan anggota geng lainnya memulai perjalanan dengan Bonnie dan mainan baru bernama Forky.",
+      "playingAt": [
+        9,
+        20
+      ],
+      "duration": 100,
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155929906195254_452x647.jpg"
+    }
+  ]
+}
